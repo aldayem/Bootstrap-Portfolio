@@ -6,7 +6,8 @@
 	float: left;
 	z-index: 0;
 	clear: both;
-	border: #dddddd
+	border: #dddddd;
+	
 
 }
 .name {
@@ -15,8 +16,9 @@
 	float:left;
 	color:white;
 	font-size: 20px;
+	padding: 5% 90% 5% 50%;
+	position: static;
 	text-align: center;
-	padding: 30px 25px 30px 25px;
 }
 .about-tab {
 	text-decoration: none;
@@ -199,12 +201,12 @@ font-size: 25px;
  .img4 {
  	position: relative;
  	float: right;
- 	margin-right: 25px;
+ 	margin-right: 100px;
  }
 .img5 {
 	padding: relative;
  	float: left;
- 	margin-right: 25px;
+ 	margin-right: 100px;
 }
  h4 {
  	position: absolute;
@@ -260,18 +262,18 @@ h7 {
 	float: left;
 	width: 95%;
 	position:relative;
-
+	margin-top: -393px;
 	border:3px solid #dddddd;
 	clear:both;
 
  }
-/**
-anything you write here will be applied on the smallest screen size
-**/
+
 @media screen and (min-width:640px) {
-   /** here will be applied till you reach the mentioned width**/
+   
    .contact-box{
 		width: 95%;
+		margin-top: 0%;
+
    }
   }
   @media screen and (min-width:768px) {
@@ -284,7 +286,7 @@ anything you write here will be applied on the smallest screen size
   @media screen and (min-width:980px) {
    
    .contact-box{
-   	margin-top: -40%;
+   	margin-top: -393px;
    	margin-right:80px;
    	width: 20%;
    	float: right;
