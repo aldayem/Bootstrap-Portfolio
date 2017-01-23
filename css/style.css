@@ -171,13 +171,15 @@ font-size: 25px;
   }
 
   .message {
-  	font-size:30px;
+  		font-size:30px;
+  	    width: 200%;
   }
-  input[type=text] {
+ .message textarea{
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box
+    width: 90%;
 }
 
 .img1 { 
