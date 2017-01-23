@@ -10,6 +10,9 @@
 	
 
 }
+.nav {
+
+}
 .name {
 	background-color: #4aaaa5;
 	font-family: 'georgia', times, times new roman, serif;
@@ -24,16 +27,17 @@
 	text-decoration: none;
 	padding: 33px 10px 32px 10px;
 	position:relative;
-	float:right;
+	float:right 33.3%;
 	color: black;
 	border-top:4px solid transparent;
 	font-size:20px;
 }
 
-.portfolio-tab {text-decoration: none;
+.portfolio-tab 
+{text-decoration: none;
 	padding: 33px 10px 32px 10px;
 	position:relative;
-	float:right;
+	float:right 33.3%;
 	color: black;
 	border-top:4px solid transparent;
 	font-size:20px;
@@ -43,7 +47,7 @@
 	text-decoration: none;
 	padding: 33px 10px 32px 10px;
 	position:relative;
-	float:right;
+	float:right 33.3%;
 	color: black;
 	border-top:4px solid transparent;
 	font-size:20px;
